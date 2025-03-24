@@ -1,0 +1,238 @@
+* {
+  margin: 10px;
+}
+
+body {
+  background-image: url(bacground.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.header .fitur {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+input[type="file"],
+[type="submit"],
+[type="reset"] {
+  display: none;
+}
+
+label {
+  margin-top: 40px !important;
+  display: flex;
+  color: white;
+  background-color:black;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 1px 25px;
+  border: solid 1px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 5px 10px 1px rgba(rgb(0, 0, 0), green, blue, alpha);
+  transition: 0.1s;
+  text-decoration: none;
+}
+
+ion-icon{
+  font-size: 25px;
+}
+
+label:hover {
+  transform: scale(1.1);
+  background-color: gray;
+  color: white;
+}
+
+label:active,
+.aboutus:active {
+  transform: scale(0.9);
+}
+
+.aboutus{
+  margin-top: 10px;
+}
+
+.aboutus a{
+  display: flex;
+  color: white;
+  background-color:black;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 1px 25px;
+  border: solid 1px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 5px 10px 1px rgba(rgb(0, 0, 0), green, blue, alpha);
+  transition: 0.1s;
+  text-decoration: none;
+  margin-top: 40px !important;
+}
+
+
+.konten {
+  display: block;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.konten h3{
+  font-size: 50px;
+}
+
+.konten h2{
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.konten #message{
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.konten {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.input-lebar {
+  width: 400px;
+  height: 40px;
+}
+
+textarea {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-block-start: 20px;
+  padding-block-end: 5px;
+  padding-inline: 10px;
+}
+
+button {
+  margin-top: 40px !important;
+  display: flex;
+  color: white;
+  background-color:black;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 1px 25px;
+  border: solid 1px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 5px 10px 1px rgba(rgb(0, 0, 0), green, blue, alpha);
+  transition: 0.1s;
+  text-decoration: none;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: gray;
+  color: white;
+}
+
+.aboutus a:hover {
+  transform: scale(1.1);
+  background-color: gray;
+  color: white;
+}
+
+button:active,
+.aboutus:active {
+  transform: scale(0.9);
+}
+
+footer .tentangsaya{
+  border-top-left-radius: 50px;
+}
+
+
+footer .tentangsaya h3{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+footer{
+  background-color: rgb(83, 114, 252);
+  color: white;
+  margin: 0;
+}
+footer .me{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .diri{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer .me .id{
+  text-align: left;
+  font-size: 25px;
+}
+
+.sosmed{
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+
+.sosmed  a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.sosmed .linkind{
+  display: flex;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+
+
+.sosmed .ig{
+  display: flex;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.sosmed .gmail{
+  display: flex;
+  align-items: center;
+  border: solid 1px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.linkind:hover, .ig:hover, .gmail:hover{
+  background-color: rgb(225, 0, 246);
+}
+
+.linkind a:hover, .ig a:hover, .gmail a:hover{
+  text-decoration: underline;
+}
+
+
+.sosmed ion-icon{
+  color: white;
+  text-align: center;
+  align-items: center;
+ 
+}

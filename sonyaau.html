@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Number</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="java.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="fitur">
+            <div class="uploadfile">
+                <input type="file" name="" id="uploadbutton">
+                <label for="uploadbutton"> 
+                    <ion-icon name="cloud-upload-outline"></ion-icon>
+                    
+                    File</label>
+            </div>
+    
+            <div class="edit">
+                <button id="editButton"><ion-icon name="create-outline"></ion-icon>Edit</button>
+            </div>
+    
+            <div class="run">
+                
+                <button onclick="checkScientificNumber()"><ion-icon name="send-outline"></ion-icon>Run</button>
+            </div>
+            
+            <div class="aboutus">
+                <a href="#aboutus"> <ion-icon name="person-outline"></ion-icon>About Me</a>
+            </div>
+        </div>
+        
+        <div class="konten">
+            <h3>Input String :</h3>
+            <textarea class="input-lebar" rows="4" placeholder="Input String here" id="inputString"></textarea>
+            <h2>Message:</h2>
+            <p id="message"></p>
+            
+        </div>
+
+    </header>
+
+    <footer>
+        <div class="tentangsaya" id="aboutus">
+            <h3>About Me</h3>
+            <div class="me">
+                <div class="diri">
+                    <img src="fotosonya.jpg" alt="" style="width: 150px;   heigt: 50px; border-radius: 50%; object-fit: cover;">
+                    <div class="id">
+                        <p>Sonya Christy Br Sembiring</p>
+                        <p>221011060126</p>
+                        <p>Information System</p>
+                        <p>Sam Ratulangi University</p>  
+                    </div> 
+                </div>
+
+                <div class="sosmed">
+                    <div class="linkind">
+                        <a href="https://www.youtube.com/@sonyasembiring1154" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+                        <p><a href="https://www.youtube.com/@sonyasembiring1154" target="_blank">sonya sembiring</a></p>
+                    </div>
+                    <div class="ig">
+                        <a href="https://www.instagram.com/sonyasemb_/?next=%2F" target="_blank"><ion-icon name="logo-instagram" ></ion-icon></a>
+                        <p><a href="https://www.instagram.com/sonyasemb_/?next=%2F" target="_blank">sonyasemb_</a></p>
+                    </div>
+
+                    <div class="gmail">
+                        <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=sonyamuham106@student.unsrat.ac.id" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
+                        <p><a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=sonyamuham106@student.unsrat.ac.id" target="_blank">sonyamuham106@student.unsrat.ac.id</a></p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+    
+</body>
+</html>
